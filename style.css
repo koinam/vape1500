@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: white;
+    align-items: center
+    
+    
+}
+.main
+{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    column-gap: 1px;
+    row-gap: 15px;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+img
+{
+    width: 20vw;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+    border: solid black;
+    margin: none;
+
+    
+}
+
+
+
+header
+{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font: bold;
+}
+
+.innehåll
+{
+    color: rgb(179, 21, 21);
+}
+
+
+#pris
+{
+    color: rgb(52, 239, 167);
+}
+
+
